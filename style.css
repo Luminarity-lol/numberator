@@ -1,18 +1,18 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   box-sizing: border-box;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: rgb(28, 96, 243);
+  background: black;
   text-align: center;
   color: aliceblue;
 }
 
 header {
-  background: rgb(54, 54, 54);
+  background: black;
   padding: 10px;
 }
 
@@ -24,28 +24,34 @@ label {
 
 input {
   border: none;
-  font-size: 20px;
+  font-size: 40;
+  font-weight;bold;
   height: 40px;
   padding: 10px;
 }
 
 section button {
-  padding: 5px 7px;
+  padding: 10px 10px;
   margin: 15px;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "arial", sans-serif;
+  font-weight: bold;
   color: aliceblue;
-  background: rgb(54, 54, 54);
-  font-size: 17px;
+  background: black;
+  font-size: 30px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 section button:hover {
-  background: rgb(39, 39, 39);
+  background: #7200DD;
 }
 
 .randomNum {
   /* background: rgb(73, 73, 73); */
   width: 90%;
   margin: 20px auto;
+}
+p {
+  font-weight:bold;
+  font-size:20px;
 }
